@@ -17,6 +17,7 @@ h3{font-size: 25px;}
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .position{
     width: 50%;
@@ -38,5 +39,20 @@ section{
 .baner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    
 }
+.second-position{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+  .second-position img{
+      width: 100%;
+  }
+  .bigdream{
+      background-image: url(images/dream-bg.png);
+      background-repeat: no-repeat;
+      background-position: right;
+  }
+  
+
+  
