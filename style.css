@@ -1,0 +1,43 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+
+    
+}
+
+h1{
+    font-size: 50px;
+}
+.name-color{
+    color: chocolate;
+}
+h3{font-size: 25px;}
+.dark{
+    color: rgb(114, 110, 110);
+}
+section{
+    display: flex;
+}
+.position{
+    width: 50%;
+    padding-left: 5%;
+}
+.position img{
+    width: 100%;
+    margin-right: 30px;
+    
+}
+.my-link{
+    text-decoration: none;
+    color: white;
+    padding: 10px 26px;
+    font-size: 18px;
+    border-radius: 8px;
+   background-image: linear-gradient(rgb(44, 44, 167), tomato);
+   
+}
+.baner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
