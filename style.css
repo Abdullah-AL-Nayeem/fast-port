@@ -15,9 +15,9 @@ h3{font-size: 25px;}
 .dark{
     color: rgb(114, 110, 110);
 }
-section{
+.flex{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 135px;
 }
 .position{
     width: 50%;
@@ -53,6 +53,35 @@ section{
       background-repeat: no-repeat;
       background-position: right;
   }
-  
-
-  
+.fifty{
+    width: 100%;
+}
+  .posi{
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%;
+      box-shadow: 10px 10px 40px rgb(82, 124, 19);
+      padding-left: 30px;
+      border-radius: 15px;
+      padding-right: 5px;
+      padding-bottom: 40px;
+      
+  }
+  .experi{
+      background-image: url(images/exp-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
+  }
+  #fst-posi{
+      border-left: 7px solid;
+      border-image: linear-gradient(blue, cyan);
+      border-image-slice: 1;
+  }
+  #scnd-posi{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, yellow, pink);
+    border-image-slice: 1;
+  }
+  footer p {
+      text-align: center;
+  }
